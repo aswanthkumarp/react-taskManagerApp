@@ -1,0 +1,89 @@
+body {
+   
+    background-color:#ECECEC;
+  
+  
+}
+h1 {
+  border: 5px solid black;
+  border-width: 10px;
+  padding: 5px;
+}
+.task-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  margin: 40px;
+  font-family: "Bitter", serif;
+}
+.tasks {
+  width: 600px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f5f5f5;
+}
+.task {
+  background-color: #ffc107;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task span.content {
+  flex-grow: 1;
+}
+.task input.edit-input {
+  flex-grow: 1;
+}
+button {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.edit {
+  background-color: #ffc107;
+}
+.delete {
+  background-color: #f44336;
+}
+.save {
+  background-color: #4caf50;
+}
+input {
+  border: 1px solid black;
+  padding: 8px 12px;
+  border-radius: 10px;
+}
+.add-task-container {
+  width: 640px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.add-task-container input {
+  flex-grow: 1;
+  border: 2px solid black;
+}
+.add-task-container button {
+  background-color: #2196f3;
+}
+i {
+  font-size: 20px;
+  margin: 0 2px;
+  align-items: center;
+}
+del{
+  color: #f44336;
+}
